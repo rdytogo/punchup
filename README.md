@@ -1,4 +1,11 @@
 # PunchUp
+
+[![Build Status](https://travis-ci.org/rdytogo/punchup.svg)](https://travis-ci.org/rdytogo/punchup)
+[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
+[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
+[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
+[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+
 **(NOTE: Currently in planning stage. We are looking for contributors.)** An open-source modular rapid application builder and content management system. PunchUp is open-source using the permissive GPLv3 license.  PunchUp's core operates alone or with add-on modules. The framework is a combination of a RAD drag-n-drop application builder and a web content managment system. 
 
 ## The PunchUp Core Structure
