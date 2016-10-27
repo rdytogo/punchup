@@ -4,3 +4,5 @@ php:
   - '7.0'
   - hhvm
   - nightly
+install:
+  - docker-compose run --rm fpm composer install --no-interaction --prefer-dist
