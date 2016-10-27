@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cc52d56989e18a6d318fa883aef0e7a2",
-    "content-hash": "c49b31be853a355cd4041a652ecc234f",
+    "hash": "892281a8ef70584c2ddcbc394639b7af",
+    "content-hash": "37233e025298877ac9438237c1d93c61",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -1586,6 +1586,64 @@
             "time": "2016-10-10 12:19:37"
         },
         {
+            "name": "spatie/laravel-fractal",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-fractal.git",
+                "reference": "9533f0ebabb26922e4bb3a9e9dc097c41162905f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-fractal/zipball/9533f0ebabb26922e4bb3a9e9dc097c41162905f",
+                "reference": "9533f0ebabb26922e4bb3a9e9dc097c41162905f",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.1.0|~5.2.0|~5.3.0",
+                "league/fractal": "^0.14.0",
+                "php": "^5.6|^7.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "3.2.*|3.3.*",
+                "phpunit/phpunit": "^5.5",
+                "scrutinizer/ocular": "^1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Fractal\\": "src"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A Fractal service provider for Laravel",
+            "homepage": "https://github.com/spatie/laravel-fractal",
+            "keywords": [
+                "api",
+                "fractal",
+                "laravel",
+                "laravel-fractal",
+                "lumen",
+                "spatie",
+                "transform"
+            ],
+            "time": "2016-09-27 09:18:36"
+        },
+        {
             "name": "symfony/console",
             "version": "v3.1.5",
             "source": {
@@ -2879,16 +2937,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.6.1",
+            "version": "5.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "60c32c5b5e79c2248001efa2560f831da11cc2d7"
+                "reference": "cd13b23ac5a519a4708e00736c26ee0bb28b2e01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/60c32c5b5e79c2248001efa2560f831da11cc2d7",
-                "reference": "60c32c5b5e79c2248001efa2560f831da11cc2d7",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/cd13b23ac5a519a4708e00736c26ee0bb28b2e01",
+                "reference": "cd13b23ac5a519a4708e00736c26ee0bb28b2e01",
                 "shasum": ""
             },
             "require": {
@@ -2957,7 +3015,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-10-07 13:03:26"
+            "time": "2016-10-25 07:40:25"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
